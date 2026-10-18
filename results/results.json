@@ -1,0 +1,98 @@
+{
+  "ablation": {
+    "Wearable-only": {
+      "test": {
+        "auroc": 0.7236741961259284,
+        "auprc": 0.2046195700965658,
+        "sens_at_90spec": 0.34805072804133397,
+        "prevalence": 0.07054340622929092
+      },
+      "shift": {
+        "auroc": 0.6565146622000095,
+        "auprc": 0.16505256456002054,
+        "sens_at_90spec": 0.2668621700879765,
+        "prevalence": 0.07993971868720696
+      }
+    },
+    "EHR-only": {
+      "test": {
+        "auroc": 0.7461976884048629,
+        "auprc": 0.20586885362445434,
+        "sens_at_90spec": 0.3635509628933772,
+        "prevalence": 0.07054340622929092
+      },
+      "shift": {
+        "auroc": 0.7169921686144654,
+        "auprc": 0.17837122316982995,
+        "sens_at_90spec": 0.3213238374528697,
+        "prevalence": 0.07993971868720696
+      }
+    },
+    "Fused (EHR + wearable)": {
+      "test": {
+        "auroc": 0.7763401289193798,
+        "auprc": 0.2629967368169258,
+        "sens_at_90spec": 0.4401127289807421,
+        "prevalence": 0.07054340622929092
+      },
+      "shift": {
+        "auroc": 0.7171388030424997,
+        "auprc": 0.19136243139981918,
+        "sens_at_90spec": 0.30791788856304986,
+        "prevalence": 0.07993971868720696
+      }
+    },
+    "Logistic regression (fused)": {
+      "test": {
+        "auroc": 0.7756441041872685,
+        "auprc": 0.26653583966622124,
+        "sens_at_90spec": 0.4635979333020197,
+        "prevalence": 0.07054340622929092
+      },
+      "shift": {
+        "auroc": 0.730725894857717,
+        "auprc": 0.21545308771276958,
+        "sens_at_90spec": 0.3389191453707583,
+        "prevalence": 0.07993971868720696
+      }
+    }
+  },
+  "threshold_pct": 11.11111111111111,
+  "target_false_alerts_per_patient_month": 1.0,
+  "final": {
+    "test": {
+      "auroc": 0.782870909540244,
+      "auprc": 0.25771462509428844,
+      "sens_at_90spec": 0.4574917801784876,
+      "prevalence": 0.07054340622929092,
+      "brier": 0.058741442018542527,
+      "alerts": {
+        "threshold": 11.11111111111111,
+        "events": 318,
+        "detected": 205,
+        "event_detection_rate": 0.6446540880503144,
+        "median_lead_time_days": 4.0,
+        "alerts": 856,
+        "false_alerts": 651,
+        "false_alerts_per_patient_month": 0.647117296222664
+      }
+    },
+    "shift": {
+      "auroc": 0.7307119801410382,
+      "auprc": 0.19801718280417233,
+      "sens_at_90spec": 0.2547130289065773,
+      "prevalence": 0.07993971868720696,
+      "brier": 0.0705371858788972,
+      "alerts": {
+        "threshold": 11.11111111111111,
+        "events": 365,
+        "detected": 287,
+        "event_detection_rate": 0.7863013698630137,
+        "median_lead_time_days": 4.0,
+        "alerts": 2108,
+        "false_alerts": 1821,
+        "false_alerts_per_patient_month": 1.8295378432685867
+      }
+    }
+  }
+}
