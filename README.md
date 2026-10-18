@@ -60,7 +60,7 @@ Numbers below are from one run with the default seeds (`python -m src.train`; re
 | Median lead time | 4 days | 4 days |
 | False alerts / patient-month | 0.65 | 1.83 |
 
-**Honest reading:**
+**Readings:**
 - On the in-distribution test cohort, fusing both streams beats either alone (0.776 vs 0.746 and 0.724), which supports the fusion requirement.
 - On the harder distribution-shift cohort (more noise, 50% silent shocks, more missing data) the fused model only ties EHR-only on AUROC (0.717), and the alert threshold tuned on validation data yields more false alerts than targeted (1.83 vs 1.0 per patient-month). Performance degrades under shift; this is reported, not hidden.
 - Logistic regression matches or slightly beats LightGBM, likely because the synthetic relationships are mostly smooth.
