@@ -3,7 +3,7 @@
 **Digital Twin Challenge 2026 (Happiest Health)** | Decision support only. Synthetic data. Not for clinical use.
 
 ## 1. Team details
-- Team name: `Blossom`  |  Leader: `Saparya Jagannath`  |  Email: `saparya05@gmail.com`
+- Team name: `Blossom`  |  Leader: `Saparya Jagannath`  |  Email: `saparya05@gmail.com` |  Phone Number: `9311705690`
 - College / Incubator: `Bharati Vidyapeeth's College of Engineering, New Delhi`  |  Members: Solo participant
 - Folder name for submission: `Blossom_BharatiVidyapeeth'sCollegeofEngineering`
 
