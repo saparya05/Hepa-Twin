@@ -4,7 +4,7 @@
 
 ## 1. Team details
 - Team name: `Blossom`  |  Leader: `Saparya Jagannath`  |  Email: `saparya05@gmail.com` |  Phone Number: `9311705690`
-- College / Incubator: `Bharati Vidyapeeth's College of Engineering, New Delhi`  |  Members: Solo participant
+- College / Incubator: `Bharati Vidyapeeth's College of Engineering, New Delhi`  |  Members: `Solo participant`
 - Folder name for submission: `Blossom_BharatiVidyapeeth'sCollegeofEngineering`
 
 ## 2. Project title
@@ -38,7 +38,7 @@ Early warning signs can show in daily-life signals: sleep-wake inversion (early 
 | Plots and reports | matplotlib |
 | Model storage | joblib |
 | Version control | Git / GitHub |
-| License | MIT (code); libraries keep their own licenses |
+| License | MIT; libraries keep their own licenses |
 
 All dependencies are listed in `requirements.txt`. Everything runs locally on a normal laptop with no GPU and no external services, and no real patient data is used.
 
@@ -125,4 +125,4 @@ The test/shift cohorts and the trained model are pre-generated so the dashboard 
 - Architecture diagram: `docs/architecture.pdf`
 - Presentation (PDF/PPT): `docs/<add>`
 - Video (20+ min, unlisted YouTube): `<ADD LINK>`
-- License: MIT (code). Libraries keep their own licences. No external datasets are bundled.
+- License: MIT. Libraries keep their own licences. No external datasets are bundled.
