@@ -120,7 +120,7 @@ The test/shift cohorts and the trained model are pre-generated so the dashboard 
 
 ## 11. Deliverables and links
 - Architecture diagram: https://github.com/saparya05/Hepa-Twin/blob/main/docs/architecture.pdf
-- Presentation (PDF/PPT): https://github.com/saparya05/Hepa-Twin/blob/main/docs/Hepa-Twin_Presentation.pptx
+- Presentation (PDF/PPT): https://github.com/saparya05/Hepa-Twin/blob/main/docs/Hepa-Twin_Presentation.pdf
 - Video (unlisted YouTube): `<ADD LINK>`
 
 ## 12. License
